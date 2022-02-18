@@ -1,9 +1,7 @@
 /* change these */
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,800italic,400,800");
+@import url("https://use.typekit.net/dab4yap.css");
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap'); */
-@import url("https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic");
-
 * {
   box-sizing: border-box;
 }
@@ -128,25 +126,43 @@ ul li:last-child {
 }
 
 .color-swatch-1 {
-  background-color: var(--bg-color);
+  background-color: white;
+  border-color: #000000;
+  border-radius: 1%;
 }
-
 .color-swatch-2 {
-  background-color: var(--link-color);
+  background-color: #e2dae3;
 }
-
 .color-swatch-3 {
-  background-color: var(--link-hover-color);
+  background-color: #f0c001;
 }
-
 .color-swatch-4 {
-  background-color: var(--color-4);
+  background-color: #e21212;
 }
-
 .color-swatch-5 {
+  background-color: #8f3c22;
+}
+.color-swatch-6 {
+  background-color: #a4df4d;
+}
+.color-swatch-7 {
+  background-color: #618411;
+}
+.color-swatch-8 {
+  background-color: #4facb4;
+}
+.color-swatch-9 {
+  background-color: #2d2942;
+}
+.color-swatch-10 {
   background-color: var(--color-5);
 }
-
+.color-swatch-11 {
+  background-color: #432e2e;
+}
+.color-swatch-12 {
+  background-color: #000000;
+}
 .textures li {
   height: 30vw;
   width: 40%;
@@ -214,31 +230,37 @@ button:focus-within {
 .h1-sample {
   font-size: 2.4rem;
   font-weight: bold;
+  font-family: itc-american-typewriter, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .h2-sample {
-  font-family: var(--secondary-font);
+  font-family: itc-american-typewriter, serif;
+  font-weight: 300;
   font-style: italic;
   font-size: 1.25rem;
 }
 
 p.typography-sample {
-  font-family: var(--secondary-font);
+  font-family: itc-american-typewriter, serif;
   line-height: 1.5;
   max-width: 960px;
 }
 
 strong {
+  font-family: itc-american-typewriter, serif;
   font-weight: bold;
 }
 
 em {
+  font-family: itc-american-typewriter, serif;
   font-style: italic;
 }
 
 a {
-  font-family: var(--primary-font);
-  color: var(--link-color);
+  font-family: itc-american-typewriter, serif;
+  color: #e21212;
   font-weight: bold;
   text-decoration: none;
   transition: all 0.2s;
